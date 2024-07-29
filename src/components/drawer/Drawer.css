@@ -1,0 +1,12 @@
+.drawer {
+    text-align: center;
+    width: 350px;
+    background: #24262a;
+    padding: 30px;
+    border-radius: 10px;
+    transition: all .4s ease;
+}
+
+.drawer:hover {
+    transform: scaleY(1.1);
+}
