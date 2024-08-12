@@ -11,7 +11,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #b1b1b1;
+
+}
+
+.container {
+  background: linear-gradient(#121212, #212b46);
+  height: 100vh;
 }
 
 code {

@@ -1,7 +1,7 @@
 import "./container.css"
-const Container = ({children}) => {
+const Container = ({ children }) => {
     return (
-        <div className="container">
+        <div className="wrapper">
             {children}
         </div>
     )
