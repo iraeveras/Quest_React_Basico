@@ -1,6 +1,7 @@
 .drawer {
-    text-align: center;
-    width: 350px;
+    display: flex;
+    width: auto;
+    max-width: 350px;
     padding: 30px;
     background: #f0efef;
     border: 1px solid #24262a;
@@ -11,4 +12,10 @@
 
 .drawer:hover {
     transform: scaleY(1.1);
+}
+
+.drawer .span {
+    text-align: left;
+    width: 100%;
+    word-wrap: break-word;
 }
